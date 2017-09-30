@@ -5,46 +5,48 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Andrew Orr's Portfolio</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 
 <body>
 
-<header class="clearfix">
-	<div id="Name">Andrew Orr</div>
-	<nav>
-		<ul class="navigationlinks">
-
-			<li class="about_nav">About</li>
-			<li class="portfolio_nav">Portfolio</li>
-			<li class="contact_nav">Contact</li>
+<header>
+	<div id="Name"><strong>Andrew Orr</strong></div>
+	<nav  class="navigationlinkslist">
+		<ul>
+			<li class="navtextlinks"><a href="index.html">About</a></li>
+			<li class= "navtextlinks"><a href="portfolio.html">Portfolio</a></li>
+			<li class= "navtextlinks"><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 </header>
-	<main class="main-body clearfix">
-	<section class="about_me">
-		<h1>About Me</h1>
-		 <img src="assets/images/aorr_headshot.jpg" > 
+
+	<main>
+	<section class="mainsection">
+		<h1 id="aboutme">About Me</h1>
+		<!-- <hr class="breakline"></hr> -->
+		 <img class="headshot clearfix" src="assets/images/aorr_headshot.jpg" ><div id="wrapper">
 		I don't know if you know this, but Andrew Orr is kind of a big deal.  Many people know him. He is very important.  He has many leather bound books and his apartment smells of rich mahogony.
 		<p class="textbreak"></p>
-		All dwarfs may be bastards yet not all bastards are dwarfs. A Lannister always pays his debts. Can I drink myself to death on the road to Meereen? No one turns away a Lannister. Don't fight for a king. Don't fight for his kingdoms. Don't fight for honor, don't fight for glory, don't fight for riches, because you won't get any.
-
+		All dwarfs may be bastards yet not all bastards are dwarfs. A Lannister always pays his debts. Can I drink myself to death on the road to Meereen? No one turns away a Lannister. Don't fight for a king. Don't fight for his kingdoms. Don't fight for honor, don't fight for glory, don't fight for riches, because you won't get any.</div>
 	</section>
 
-	<section class="connect_with_me">
-		<h1 class="connect_me">Connect With Me</h1>
+	<!-- <section class="sidebar" >  -->
+		<!-- <h2 class="connect">Connect With Me<br><br></h2> -->
+		<!-- <hr breakline></hr> -->
 		
-		<nav class="logos" >
+		<nav class="sidebar" >
+			<h2>Connect With Me<br><br></h2>
 			<ul>
-				<li class="logo-image-size"><img src="assets/images/github_logo.svg" alt="Git Hub Logo"></li>
-				<li class="logo-image-size"><img src="assets/images/linkedin_logo.svg" alt="Linked In Logo"></li>
-				<li class="logo-image-size"><img src="assets/images/stackflow.svg" alt="Stack Overflow Logo"></li>
+				<li class="logo"><a  target= "_blank" href="https://github.com/andorr10"><img class="logosize" src="assets/images/github_logo.svg" alt="Git Hub Logo"></a></li>
+				<li class="logo"><a  target= "_blank" href="https://www.linkedin.com/in/andrewworr"><img class="logosize" src="assets/images/linkedin_logo.svg" alt="Linked In Logo"></a></li>
+				<li class="logo"><img class="logosize" src="assets/images/stackflow.svg"></li>
 			</ul>
 		</nav>
-	</section>
+	<!-- </section> -->
 	</main>
 
 

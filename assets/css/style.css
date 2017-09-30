@@ -1,8 +1,8 @@
-
+/*
 /* have the aside for the linkedin logos and have them in the main section*/
 /* test out display: block;*/
-
-/*html, body, div, span, applet, object, iframe,
+/*
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -11,135 +11,181 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	border: 1px solid black;/* background-color: blue;*/
-/*}*/
-
+	border: 1px solid black;
+}
+*/
 header{
-	background-color: lightgrey;
-	line-height: 2.5;
+	background-color: #ffffff;
+	line-height: 2;
 	color: #333;
 	margin: 0 auto;
 	text-align: center;
 	border-style: solid;
-	height: 100%;
+	height: 75px;
+	border-bottom: 5px lightgrey solid;
 }
 
+}
+body{
+	width: 970px;
+}
 
+a:hover {
+	color: #777
 }
-main{
-	
-	background-color: red;
-	width: 960px;
-	height: 100%;
-}
+
 h1 {
-	color: #4aaaa5;
-	line-height: 2;
-	padding-top: 15px;
 }
-nav{
+
+/*h2, .logos{
+	width:40%;
+	/*height: 55%;*/
+	/*width: 250px;*/
+	/*float: right;*/
+	/*overflow:hidden;
+ }*/
+
+/*nav{
 	position: relative;
 	width: 60%;
-}
+}*/
 ul{
+	width: 90;
 	display: inline;
+	bottom:0;
 }
-section{
-	display: block;
-	width: 70%;
-	border-style: solid;
-	height: 400px;
-	float: left;
+li{
+	display:inline;
 }
-img{
-	float: left;
-	position: relative;
 
+
+
+img{
+	position: relative;
 }
 
 footer{
-	position: fixed;
 	background-color: darkgrey;
 	margin: 0 auto;
-	position: relative;
-	border-top: 5px #4aaaa5;
+	position: absolute;
+	border-top: 10px #4aaaa5 solid;
 	text-align: center;
+	padding-top: 15px;
 	height: 30px;
+	top: 100%;
 	bottom: 0;
 	color: white;
+	width: 100%;
 }
 
+#aboutme{
+	color: #4aaaa5;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    /*border-bottom: solid 2px;*/
+    font-size: 20px;
+}
 #Name{
 	position: relative;
+	bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
 	width: 125px;
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
+
+	margin-top: 40px;
 	text-align: center;
-	height: 50%;
+	height: 40%;
 	margin-left: 2%;
 	color:white;
 	font-style: bold;
 
-	
 }
-.navigationlinks{
+#wrapper{
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.navigationlinkslist{
 	bottom: 0;
 	float: right;
+	width: 30%;
+	padding: 50px;
+
+	/*padding-right:10px;*/
+}
+.navtextlinks{
+	width: 33px;
 }
 
-.about_nav{
-	size:33.33%;
-	float:left;
-}
-.portfolio_nav{
-	size:33.33%;
-	float: left;
 
-}
-.contact_nav{
-	size: size: 33.33%;
-	float: right;
-
-}
 
 .main-body{
 	padding: 5px;
+	width: 650px;
 }
-.about_me{
-	width:50%;
+.headshot{
+	border: 50px;
+	padding: 15px;
 	float: left;
-	margin-left: 2px;
 }
+.breakline{
+	position: left;
+}
+
 .textbreak{
 	height: 16px;
 }
-.connect_with_me{
-	width: 40%;
-	float: right;
-	height: 55%;
-	margin-right: 20px;
-	text-align: center;
+
+.connect{
+	padding-right: 39px;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-height: 25px
+	margin-bottom: 5px;
+
 }
+
+.sidebar{
+	width: 270px;
+	float: right;
+	margin-right: 52px;
+	/*margin-top: 10px;*/
+	text-align: center;
+	color: #4aaaa5;
+	background-color: rgba(192,192,192,0.3);;
+	border: solid 2px;
+	padding: 10px 0px 10px 0px;
+
+	
+	/*display:block;*/
+}
+
 .logos{
- 	width: 98%;
- 	height: 55%;
- 	float: right;
- 	display:inline;
- 	/*overflow:hidden;*/
+	position: relative;
+	height: 80%;
+}
+
+ .logo {
+ 	position:relative;
+ 	max-width: 40px;
+ 	max-height : 40px;
+ 	padding-left: 12px;
+ 	display: inline;
  }
 
-
- .logo-image-size{
- 	max-width: 40px;
- 	max-height:height: 40px;
- 	display: inline;
+ .logosize{
+ 	width:40px;
+ 	height: 40px;
  }
 
 
@@ -150,6 +196,38 @@ footer{
   content: " ";
   clear: both;
   height: 0;
+  text-align: center;
 }
 
+main{
+	/*width: 650px;*/
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-color: #dddddd;
+	/*background-color: red !important;*/
+	margin: auto;
+	background-image: url("../images/asfalt-dark.png");
+}
+	/*background-image: url("./assets/images/asfalt-dark.png");*/
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
+.mainsection {
+	/*display: block;*/
+	width: 50%;
+	border-style: solid;
+	/*float: left;*/
+	/*margin: 2%;*/
+	color: #7777777;
+     float: left;
+	margin-left: 2px;
+	height: 400px;
+	margin-top: 52px;
+	margin-left: 52px;
+	background-color: rgba(192,192,192,0.3);;
+	border: solid 2px #4aaaa5;
+	padding: 10px 0px 10px 0px;
+}
+
+/*body {
+ background-image: url("../images/asfalt-dark.png");
+}  */  
